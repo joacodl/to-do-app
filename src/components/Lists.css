@@ -1,0 +1,29 @@
+.list {
+    margin: 20px auto;
+    width: 75vw;
+    background: #c0c0c0;
+    border-width: 1px;
+    border-color: #ffffff #808080 #808080 #ffffff;
+    border-style: solid;
+}
+
+.list h2 {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.cards_container {
+    max-height: 50vh;
+    overflow-y: scroll;
+    border-top: 2px solid #808080;
+}
+
+@media (min-width: 1024px) {
+    .list {
+        width: 40vw;
+    }
+
+    .cards_container {
+        min-height: 65vh;
+    }
+}

@@ -1,0 +1,20 @@
+.button {
+  background-color: blue;
+  outline: 1px solid #000000;
+  background: #c0c0c0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  display: block;
+  padding: 4px 10px;
+  margin: 30px 0 0 auto;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button[type=submit] {
+    font-size: 16px;
+    margin: auto;
+}
