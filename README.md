@@ -2,6 +2,8 @@
 
 Simple To Do App Using useReducer hook with some windows 95 aesthetic.
 
+Try it at [To Do Vercel](https://to-do-app-swart.vercel.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
